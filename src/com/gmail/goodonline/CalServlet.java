@@ -41,6 +41,7 @@ public class CalServlet extends javax.servlet.http.HttpServlet {
             result=dnumber1/dnumber2;
         }
         out.print("Result:<br>"+result);
+        out.close();
     }
 
 
